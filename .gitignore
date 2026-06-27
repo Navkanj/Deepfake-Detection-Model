@@ -1,0 +1,45 @@
+﻿# --- Python Environment ---
+.venv/
+venv/
+env/
+.env
+bin/
+lib/
+share/
+Include/
+build/
+dist/
+*.egg-info/
+
+# --- Data and Models (Heavy Artifacts) ---
+data/
+datasets/
+# models/ - UNCOMMENTED: models needed for production
+# *.pth - UNCOMMENTED: model architecture needed in repo
+*.h5
+*.weights
+*.onnx
+*.pkl
+
+# --- System and IDE ---
+.vscode/
+.streamlit/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Large Media & Archives ---
+*.mp4
+*.zip
+*.tar.gz
+*.rar
+*.7z
+dataset/
+
+dataset/
