@@ -116,6 +116,15 @@ By default, the Streamlit app requires authentication to access the dashboard.
 
 ---
 
+## 📂 Dataset
+
+The model is trained and evaluated using the **140k Real and Fake Faces** dataset on Kaggle.
+
+* **Dataset Link:** [Kaggle - 140k Real and Fake Faces](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
+* **Structure:** The dataset contains balanced sets of real and GAN-generated fake face images partitioned into `train`, `test`, and `valid` subsets.
+
+---
+
 ## 🧠 Training & Evaluation
 
 ### Training the Model
